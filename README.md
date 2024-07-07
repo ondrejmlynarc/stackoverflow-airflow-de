@@ -4,13 +4,11 @@ This repository contains a data engineering project demonstrating how to build a
 
 ## Project Overview
 
-In this project, you'll learn how to:
+The pipeline involves:
 
-* Set up Apache Airflow
-* Use Airflow to schedule and manage workflows
-* Extract data from the Stack Overflow API based on the 'cloud' tag
-* Process and store data in a database
-* Analyze the frequency of cloud-related discussions and tool usage on Stack Overflow
+Extract: Fetch questions from Stack Overflow using the StackAPI.
+Transform: Process the data for analysis.
+Load: Store the processed data in a database.
 
 ## Prerequisites
 
