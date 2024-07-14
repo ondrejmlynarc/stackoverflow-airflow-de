@@ -19,7 +19,7 @@ default_args = {
 dag = DAG(
     'stackof_dag',
     default_args=default_args,
-    description='Our first DAG with ETL process!',
+    description='stackoverflow etl',
     schedule_interval=timedelta(days=1),
 )
 
